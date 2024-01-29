@@ -23,6 +23,7 @@ module.exports = {
 	plugins: ["@typescript-eslint"],
 	rules: {
 		camelcase: "off",
+		"@typescript-eslint/no-explicit-any": "off",
 		"@typescript-eslint/naming-convention": [
 			"error",
 			{
